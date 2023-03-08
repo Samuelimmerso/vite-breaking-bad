@@ -1,5 +1,6 @@
 <script>
 import Header from "./components/Header.vue";
+import axios from "axios";
 
 export default {
 
@@ -15,8 +16,14 @@ export default {
   },
 
   methods:{
-    
+
+  },
+
+  created(){
+    console.log(axios);
   }
+
+
   
 
 
